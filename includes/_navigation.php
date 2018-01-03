@@ -503,14 +503,14 @@
     <!--mobile navigation over-->
 
     <!--locality info mobile view  -->
-    <div class="visible-xs visible-sm hide">
+    <!-- <div class="visible-xs visible-sm hide">
         <div class="row margin-none mview-loclaity">
             <div class="arrowup"></div>
             <div class="col-xs-12 padding-none">
                 <span class="w100 ellips left">kathmandu - <span class="size-10">Home Delivery Available</span></span>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- server side messages displayed over -->
     <div class="visible-xs">
