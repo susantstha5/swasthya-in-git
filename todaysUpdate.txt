@@ -1,0 +1,39 @@
+changes made today
+1.doctorRegister.php
+2.signup.php
+3.clientSurvey.php
+
+
+geolocation has been updated in clientSurvey.
+------------------------------------------------------------------------------------------------
+
+second updated
+
+1.testimonials section completed(_testimonials.php)
+2.opitionpage added(it is included in signup folder)
+3.service provider option is removed from signup.php page
+4.doctorRegister.php also has capcha included.
+
+
+december 3,2017
+
+1.all admin,client ,serviceprovider pages are inside their related name.
+
+december 4,2017
+1.search,sorting can be done on the table(like admin_usersstatus.php) 
+2.family history modification has been done (adding border i.e clientsurvey.php)
+3.added serviceprovider_Productstatus.php in serviceprovider folder
+
+
+december 21,2017
+1.forum and article are done... they are in their folder
+2.admin dashboard are inside their respective folder
+
+december 26,2017
+1.allopathy section has been done along with form and display.
+ They are located in includes/category/exclusive/_allopathy-product-display.php.
+    The site can be visited by localhost/swastya/allopathy.php
+    1.1 the admin section for allopathy is inside the includes/category/exclusive.
+
+2.design for labtest are also completed. [labtest>>labtest_search>>labtest_display]
+    labtest original file are included inside old folder includes/labtest/original folder same goes for css

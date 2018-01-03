@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css?family=Dax:400,900");
+.doctorprofile-container ul {
+  padding: 0;
+  margin: 0; }
+
+@media (min-width: 768px) {
+  .content-wrapper {
+    margin-left: 0; }
+
+  .content-wrapper .main-slider-wrapper .main-slider .item .slider-content-wrap {
+    text-align: left; }
+
+  .content-wrapper .main-slider-wrapper .main-slider .item .slider-content-wrap .slider-mid .slider-content {
+    padding: 0 0 10px 70px; } }
+@media (min-width: 1280px) {
+  .content-wrapper {
+    margin-left: 0; } }
+.doctorprofile-container {
+  margin-bottom: 10px; }
+
+.doctorheader-container {
+  position: relative; }
+  .doctorheader-container .doctorimagebanner-section {
+    position: relative;
+    height: 290px;
+    border-top: 4px solid #046686; }
+    .doctorheader-container .doctorimagebanner-section img {
+      height: 100%;
+      width: 100%; }
+    .doctorheader-container .doctorimagebanner-section .social-link {
+      position: absolute;
+      right: 0;
+      bottom: 0; }
+      .doctorheader-container .doctorimagebanner-section .social-link a {
+        color: #ffffff; }
+
+.social-link {
+  background: #046686; }
+  .social-link li {
+    padding: 0 10px;
+    float: left;
+    list-style: none; }
+    .social-link li:hover > a {
+      color: #024b68 !important; }
+
+.doctorcontext-section {
+  position: relative;
+  background: #ffffff;
+  color: #000000; }
+  .doctorcontext-section span {
+    position: absolute;
+    padding: 20px;
+    background: #ffffff; }
+  .doctorcontext-section img {
+    background: #ffffff;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 20px;
+    border-bottom: 4px solid #046686; }
+
+.doctorbody {
+  position: relative;
+  margin-top: 150px;
+  padding: 0 20px; }
+
+.doctorbody__left {
+  padding: 0; }
+
+.doctorbody__right {
+  padding-top: 0;
+  padding-right: 0; }
+
+.doctorinfo__section,
+.map-section,
+.contact-section {
+  background: #ffffff;
+  padding: 10px; }
+
+.doctorbody__right .primary-info {
+  background: #FFFFFF;
+  padding: 10px;
+  color: #000000;
+  margin-bottom: 10px; }
+
+.doctorbody__right .address {
+  font-weight: 400;
+  font-size: 18px;
+  font-size: 1.125em;
+  line-height: 18px;
+  line-height: 1.125rem;
+  color: #333;
+  margin-bottom: 5px; }
+
+.business-card.paid-listing .phone {
+  font-weight: 700;
+  letter-spacing: 0;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 20px;
+  line-height: 1.25rem;
+  display: inline-block;
+  margin-bottom: 11px; }
+
+.closed {
+  color: red; }
+
+.contact-bottom {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .contact-bottom .preferred-label {
+    border-radius: 5px;
+    color: #70be44;
+    border: 1px solid #6ec03a;
+    clear: both; }
+  .contact-bottom .years-in-business,
+  .contact-bottom .accepting-new-patients,
+  .contact-bottom .preferred-label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contact-bottom .years-in-business .number,
+    .contact-bottom .accepting-new-patients .number,
+    .contact-bottom .preferred-label .number {
+      background: black;
+      color: white;
+      padding: 3px 8px;
+      border-radius: 40%;
+      margin-right: 5px; }
+    .contact-bottom .years-in-business svg,
+    .contact-bottom .accepting-new-patients svg,
+    .contact-bottom .preferred-label svg {
+      margin-right: 5px; }
+    .contact-bottom .years-in-business span,
+    .contact-bottom .accepting-new-patients span,
+    .contact-bottom .preferred-label span {
+      font-size: 10px;
+      line-height: 15px; }
+    .contact-bottom .years-in-business p,
+    .contact-bottom .accepting-new-patients p,
+    .contact-bottom .preferred-label p {
+      margin-bottom: 0px; }
+
+.doctorbody__right .time-info,
+.closed {
+  font-size: 20px;
+  font-size: 1.250em;
+  line-height: normal;
+  letter-spacing: .2px; }
+
+.doctorRegister__main {
+  background: #FFF; }
+
+.seller-register {
+  background: #046686;
+  padding: 20px 10px;
+  margin: 10px 0;
+  color: white; }
+  .seller-register label {
+    text-align: left !important; }
+
+.sh-newsletters,
+.contactDetails {
+  background: #024b68;
+  padding: 10px 20px;
+  color: #ffffff; }
+  .sh-newsletters h4,
+  .contactDetails h4 {
+    color: #ffffff;
+    font-weight: 600; }
+
+.services {
+  margin-top: 20px; }
+
+#timeline {
+  position: relative; }
+
+#timeline:before {
+  content: '';
+  width: 3px;
+  position: absolute;
+  background: #024b68;
+  left: 50%;
+  top: 0;
+  bottom: 0; }
+
+@media (min-width: 1300px) {
+  #timeline .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -25px;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    visibility: visible; } }
+.timeline-panel {
+  border: 1px solid #024b68;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  color: #666;
+  padding: 10px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  margin: 10px; }
+
+.seller4 {
+  background: #024b68;
+  color: #ffffff;
+  padding: 5px; }
+  .seller4 h2 {
+    color: #ffffff;
+    font-weight: 600; }
+
+.card-basic-info {
+  color: #000000;
+  margin-top: 10px; }
+
+.card-basic-info tr:hover {
+  border-left: 5px solid #024b68;
+  -webkit-transition: background 1s ease-in-out;
+  transition: background 1s ease-in-out; }
+
+.hospitalName {
+  position: relative; }
+  .hospitalName .arrow {
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-right: 22px solid #ffffff; }
+
+.updatePhoto {
+  position: relative; }
+  .updatePhoto .updatepic {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    height: 50px; }
+
+.truncate {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.doctor-capitalize {
+  text-transform: capitalize; }
+
+.middle {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px; }
+  .middle h1 {
+    font-family: "Dax", sans-serif;
+    color: #fff; }
+  .middle input[type="radio"] {
+    display: none; }
+    .middle input[type="radio"]:checked + .box {
+      background-color: #00B4B4; }
+      .middle input[type="radio"]:checked + .box span {
+        color: white; }
+        .middle input[type="radio"]:checked + .box span:before {
+          -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+          opacity: 1;
+          color: #ffffff; }
+  .middle label {
+    margin-right: 5px; }
+  .middle .box {
+    width: 100px;
+    height: 90px;
+    background-color: #fff;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+    will-change: transition;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    font-family: "Dax", sans-serif;
+    font-weight: 500; }
+    .middle .box:active {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px); }
+    .middle .box span {
+      position: absolute;
+      left: 0;
+      right: 0;
+      -webkit-transition: all 300ms ease;
+      transition: all 300ms ease;
+      font-size: 1.2em;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      color: #00B4B4; }
+      .middle .box span:focus {
+        color: white; }
+      .middle .box span:before {
+        font-size: 1.2em;
+        font-family: FontAwesome;
+        display: block;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        opacity: 1;
+        -webkit-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
+        font-weight: normal;
+        color: #00B4B4; }
+  .middle .labtest span:before {
+    content: '\f0c3'; }
+  .middle .appointment span:before {
+    content: '\f05d'; }
+  .middle .Online-shopping span:before {
+    content: '\f290'; }
+  .middle .Hospital-Booking span:before {
+    content: '\f02d'; }
+
+.specialities_container {
+  margin: 10px 0;
+  border: 1px solid #3333;
+  border-radius: 5px;
+  padding: 10px; }
+
+.specialities_header {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #333;
+  border-bottom: 1px dashed; }
+
+.specialities_items {
+  margin-top: 10px; }
+
+.specialitiesItem_item {
+  border-radius: 15px;
+  padding: 5px 15px;
+  background: #3333;
+  color: #fff; }
+
+.item_selected {
+  background: #04668c; }
+
+.specialitiesItem_item-count {
+  font-size: 12px; }
+
+.doctorProfile_card {
+  border: 1px solid #3333;
+  padding: 10px 5px;
+  -webkit-box-shadow: 1px 1px 1px #3333;
+  box-shadow: 1px 1px 1px #3333;
+  margin-top: 15px;
+  margin-bottom: 20px; }
+  .doctorProfile_card:hover {
+    -webkit-box-shadow: 1px 1px 5px #3333;
+    box-shadow: 1px 1px 5px #3333; }
+
+.doctorProfile_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.doctorProfile_card-photo {
+  width: 60px;
+  height: 60px; }
+
+.doctorProfile_card-info {
+  margin-left: 10px;
+  line-height: 1.2;
+  font-size: 12px; }
+
+.doctorProfile_right-side {
+  color: #333; }
+
+.doctorProfile_doctor-name {
+  display: block;
+  font-size: 16px;
+  color: #024b68;
+  font-weight: 600;
+  margin-bottom: 5px; }
+
+.doctorProfile_schedule-info {
+  margin-left: 5px;
+  line-height: 1.4;
+  display: inline-block; }
+
+.doctorProfile_doctor-visiting-day {
+  line-height: 1.4;
+  display: inline-block;
+  font-size: 16px; }
+
+.doctorProfile_doctor-visiting-hour {
+  font-size: 12px; }
+
+.doctorProfile_time-icon {
+  color: black;
+  vertical-align: top;
+  margin-top: 5px; }
+
+.doctorProfile_card-fadein {
+  display: none;
+  padding: 10px; }
+
+.doctorProfile_card-number {
+  color: green;
+  font-weight: 600;
+  font-size: 18px; }
+
+.doctorProfile_card-message {
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */

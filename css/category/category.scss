@@ -1,0 +1,52 @@
+@import url(../custom-top.css);
+.row {
+    margin-top: 10px;
+}
+
+.sku-page-cat {
+    font-size: 20px;
+    color: #4A4A4A;
+    text-transform: uppercase;
+    display: inline;
+    font-family: "Open Sans";
+}
+
+.category-image {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    &:hover {
+        .category-name {
+            //color: #071b24;
+            color: #ffffff;
+            //background-color: rgba(247,182,50,.9);
+            background: #046686;
+        }
+    }
+    img {
+        max-width: 100%;
+        vertical-align: middle;
+        border: 0;
+    }
+    .category-name {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        bottom: 0;
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        color: #fff;
+        background: #024b68;
+        letter-spacing: -0.2px;
+        opacity: 0.8;
+    }
+}

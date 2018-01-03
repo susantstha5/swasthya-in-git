@@ -1,0 +1,71 @@
+.forum_navigation {
+  background: #024B68;
+  border-radius: 0;
+  border: none; }
+  .forum_navigation .navbar-brand {
+    padding: 8px 15px; }
+    .forum_navigation .navbar-brand img {
+      height: 100%; }
+  .forum_navigation .navbar-nav .active > a {
+    background: #04668C;
+    color: #ffffff; }
+  .forum_navigation .navbar-nav li a {
+    color: #ffffff;
+    font-weight: 600; }
+    .forum_navigation .navbar-nav li a:hover {
+      color: #ffffff; }
+  .forum_navigation .navbar-nav li:hover {
+    background: #04668C; }
+
+/*navigation search section*/
+.search {
+  width: 100%;
+  position: relative; }
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF; }
+
+.searchTerm:focus {
+  color: #000000; }
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px; }
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 33vw;
+  position: absolute;
+  top: 25px;
+  left: 40%;
+  -webkit-transform: translate(-155px, -50%);
+  transform: translate(-155px, -50%); }
+
+.profile_dropdown a {
+  padding: 10px !important; }
+  .profile_dropdown a img {
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden; }
+.profile_dropdown .dropdown-menu {
+  background-color: #046686;
+  border: 1px solid #046686; }
+  .profile_dropdown .dropdown-menu li a:hover {
+    background: #00B4CC; }
+
+/*# sourceMappingURL=article_navigation.css.map */

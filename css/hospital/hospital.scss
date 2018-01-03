@@ -1,0 +1,339 @@
+@import "../custom-top.css";
+.c-btn--light,
+.c-card-list__item,
+.c-card-reach__locality,
+.c-card__left,
+.c-card__logo,
+.c-card__middle,
+.c-card__middle--base2,
+.c-card__photo,
+.c-carousel__lazy,
+.c-filter__box,
+.c-footer__column,
+.c-paginator li,
+.c-sort,
+.c-sort-dropdown,
+.c-sort-dropdown__selected,
+.insurance__section--testimonial__author div,
+.u-d-inlineblock {
+    display: inline-block;
+}
+
+.c-filter__box,
+.u-spacer--right {
+    margin-right: 16px;
+}
+
+.c-card-reach__cta-small,
+.c-card__left,
+.u-f-left {
+    float: left;
+}
+
+.c-card__middle,
+.c-card__middle--base2,
+.u-cushion--right {
+    padding-right: 16px;
+}
+
+.c-paginator li:not(:first-child),
+.u-spacer--left-thin {
+    margin-left: 4px;
+}
+
+.c-list-card:not(:first-child) {
+    margin-top: 10px;
+}
+
+//.c-btn, .c-btn--dark, .c-btn--dark-small, .c-btn--light {
+//  height: 30px;
+//  width: 100%;
+//  outline: none;
+//  padding: 4px 0 8px;
+//}
+.c-guided-filter,
+.o-card--separated {
+    margin-top: 0;
+}
+
+.o-card {
+    width: 100%;
+}
+
+.c-btn--light,
+.c-drop-list,
+.c-dropdown__list,
+.c-dropdown__suggestion,
+.o-card,
+.u-fill--white {
+    background-color: #fff;
+}
+
+.c-card-reach,
+.c-card-reach--branding,
+.c-card-reach--generic,
+.c-card-reach--plus,
+.c-list-card,
+.u-border--white {
+    border: 1px solid #fff;
+    //margin-top: 10px;
+}
+
+.c-card-reach,
+.c-card-reach--branding,
+.c-card-reach--generic,
+.c-card-reach--plus,
+.c-dropdown__list,
+.c-dropdown__suggestion,
+.c-list-card,
+.u-b-shadow {
+    -webkit-box-shadow: 0 1px 2px 1px hsla(0, 0%, 43%, .14);
+    box-shadow: 0 1px 2px 1px hsla(0, 0%, 43%, .14);
+}
+
+.u-cushion {
+    padding: 16px;
+}
+
+.u-normal-text {
+    color: #414146;
+}
+
+.u-normal-text {
+    color: #414146;
+}
+
+.pure-u-1,
+.pure-u-1-1,
+.pure-u-5-5,
+.pure-u-24-24 {
+    width: 100%;
+}
+
+.pure-u-17-24 {
+    width: 70.8333%;
+}
+
+.pure-u-7-24 {
+    width: 29.1667%;
+}
+
+.o-media__object.img-thumbnail {
+    max-width: none;
+    border: none;
+}
+
+.c-card__photo {
+    width: 100px;
+}
+
+.c-card__photo img {
+    width: 100px;
+    max-width: 100px;
+    max-height: 110px;
+    border-radius: 3px;
+}
+
+.o-media--left,
+.o-media--right,
+.o-media__body {
+    display: inline-block;
+    vertical-align: top;
+}
+
+//.o-media{
+// text-align: right;
+//}
+.o-media--middle {
+    vertical-align: middle;
+}
+
+.c-btn--light,
+.u-color--primary {
+    color: #14bef0;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.c-card-info__item {
+    max-width: 450px;
+}
+
+.c-card-info__item+.c-card-info__item,
+.u-spacer--top-thin {
+    margin-top: 4px;
+}
+
+.pure-u-7-24 {
+    width: 29.1667%;
+}
+
+.insurance__section--benefit__icon,
+.u-spacer--bottom-less {
+    margin-bottom: 8px;
+}
+
+.u-cushion--top-less {
+    padding-top: 8px;
+}
+
+.u-cushion--vertical {
+    padding: 16px 0;
+}
+
+.pure-u-1-2,
+.pure-u-12-24 {
+    width: 50%;
+}
+
+//right section
+.c-listing__right {
+    padding-left: 40px;
+}
+
+.c-listing__right,
+.u-spacer--large-top {
+    margin-top: 70px;
+}
+
+.u-spacer--medium-bottom {
+    margin-bottom: 28px;
+}
+
+.u-grey_3-text {
+    color: #787887;
+}
+
+.insurance__section--desktop,
+.u-d-block {
+    display: block;
+}
+
+.c-btn--dark-small,
+.c-card-reach__footer-left,
+.u-smallest-font {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+//phone no section
+//.c-vn--fadein {
+//  overflow: hidden;
+//  -webkit-animation: vnFadeIn .3s ease-in;
+//  animation: vnFadeIn .3s ease-in;
+//  -webkit-animation-fill-mode: forwards;
+//  animation-fill-mode: forwards;
+//}
+.c-vn {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.c-vn__info {
+    font-size: 18px;
+    color: #00a500;
+    margin-bottom: 10px;
+}
+
+.c-vn__message {
+    font-size: 12px;
+}
+
+.c-vn__number {
+    font-weight: 700;
+}
+
+//modify section
+.u-title-font {
+    font-size: 16px;
+    margin: 0;
+}
+
+.c-btn--dark {
+    height: 30px;
+    width: 100%;
+    outline: none;
+    padding: 4px 4px 8px;
+    border: none;
+    background-color: #14bef0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: 700!important;
+}
+
+.u-bold {
+    font-weight: 700!important;
+}
+
+.c-paginator li:not(:first-child),
+.u-spacer--left-thin {
+    margin-left: 4px;
+}
+
+.c-paginator li a {
+    padding: 4px 6px;
+    line-height: 13px;
+}
+
+.c-paginator .active {
+    background-color: #14bef0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.disabled {
+    display: none !important;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .pure-u-7-24 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+    .c-card__body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .pure-u-17-24,
+    .pure-u-7-24 {
+        width: 100%;
+        padding: 5px 5px;
+    }
+    .c-listing__right,
+    .u-spacer--large-top {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 474px) and (max-width: 991px) {
+    .pure-u-7-24 .c-card-info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    .pure-u-17-24,
+    .pure-u-7-24 {
+        text-align: center;
+    }
+}

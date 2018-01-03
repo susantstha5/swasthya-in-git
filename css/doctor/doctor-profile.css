@@ -1,0 +1,113 @@
+.text-bold {
+  font-weight: 600; }
+
+.doctor-capitalize {
+  text-transform: capitalize; }
+
+.doctor-uppercase {
+  text-transform: uppercase; }
+
+.doctor-m-l-15 {
+  margin-left: 15px; }
+
+.doctor-m-b-8 {
+  margin-bottom: 8px; }
+
+.doctor-m-b-10 {
+  margin-bottom: 10px; }
+
+.doctor-profile {
+  margin-bottom: 20px;
+  color: black;
+  background: #f2f2f2; }
+
+.doctor-profile__image img {
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: 0 5px 10px grey;
+  box-shadow: 0 5px 10px grey; }
+
+.doctor-profile__details ul,
+.doctor-profile__overall-rating ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.doctor-name {
+  font-size: 20px;
+  font-weight: 600; }
+
+.doctor-rating {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; }
+  .doctor-rating .rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    background: green;
+    height: 20px;
+    width: 40px;
+    color: white;
+    border-radius: 4px;
+    padding: 2px; }
+    .doctor-rating .rating .star-right {
+      margin-left: 8px; }
+  .doctor-rating .rating-rate {
+    margin-left: 1em; }
+
+.doctor-occupation-name {
+  font-weight: 600; }
+
+.doctor-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: -10px; }
+
+@media (max-width: 991px) {
+  .doctor-profile__image {
+    text-align: center;
+    margin-bottom: 10px; }
+
+  .hidden-on-small {
+    display: none; } }
+.main-box1 {
+  border-radius: 3px;
+  margin-top: 5px;
+  color: white;
+  height: 30px;
+  width: 80%;
+  background: #04668C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid white; }
+  .main-box1 .main-box__rating {
+    display: block;
+    text-align: center;
+    padding-left: 10px; }
+
+.svg-icons {
+  padding-top: 4px; }
+
+/*# sourceMappingURL=doctor-profile.css.map */

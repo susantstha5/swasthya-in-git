@@ -1,0 +1,41 @@
+.btn {
+  padding: $value-10*1.5 $value-10*3;
+  text-transform: $text-upper;
+  font-weight: $font-weight-semi-bold;
+  border-color: $color-transparent;
+  outline:$value-0;
+  @include border-radius($value-10*5);
+
+  &.btn-white-outline {
+    background-color: transparent;
+    border: 1px solid $color-white;
+    &:hover {
+      background-color: $color-white !important;
+      color: $color-blue !important;
+    }
+  }
+}
+.btn-warning{
+  background-color: $color-yellow;
+}
+.btn-gray {
+  border-color: $color-gray;
+  color: $color-gray;
+  font-weight: $font-weight-semi-bold;
+  &:hover {
+    border-color: $color-gray-light;
+    color: $color-gray-light;
+  }
+}
+
+.btn-lg {
+  font-size: $font-size-base;
+  padding: $value-10 $value-10+5;
+}
+
+@include breakpoint(tablet) {
+  .btn-lg {
+    font-size: $font-size-base+3px;
+    padding: $value-10 $value-20;
+  }
+}

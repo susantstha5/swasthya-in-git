@@ -1,0 +1,215 @@
+.sku-container,
+.sku-filter {
+    background: #ffffff;
+}
+
+.sku-filter {
+    font-size: 16px;
+}
+
+.filter-content-wrap {
+    margin: 10px 0;
+}
+
+.filter-facet {
+    padding: 5px 0;
+    border-top: solid 1px #e4e4e4;
+    .filter-heading {
+        margin: 5px 0;
+        font-size: 14px;
+        color: #757575;
+    }
+    input[type=text] {
+        width: 100%;
+        -webkit-box-shadow: 0 0 2px #ccc;
+        box-shadow: 0 0 2px #ccc;
+    }
+}
+
+.filter-facet .brand-search {
+    border-radius: 4px;
+    border: 1px solid #b3b3b3;
+    margin: 5px 0 8px;
+    padding: 2px 5px;
+}
+
+.filter-facet .filter-items {
+    display: block;
+    line-height: 25px;
+    white-space: nowrap;
+    max-height: 250px;
+    overflow: auto;
+    font-size: 12px;
+    color: #212121;
+    .filter-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        font-weight: 100;
+    }
+}
+
+.filter-item .filter-name {
+    margin-left: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.filter-item input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin: 5px 0;
+}
+
+.cat-breadcrumb {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #757575;
+}
+
+.sku-page-cat {
+    font-size: 20px;
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
+
+.sku-img {
+    height: 175px;
+    text-align: center;
+    img {
+        vertical-align: middle;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+.sku-name {
+    color: #042430;
+    overflow: hidden;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.sort {
+    font-weight: 400;
+    position: relative;
+    vertical-align: middle;
+    float: right;
+    //color:black;
+    .sort-button {
+        border: none;
+        border-radius: 4px;
+        min-height: 33px;
+        width: 150px;
+        color: #000;
+        ;
+        background-color: #FFFFFF;
+        padding: 5px;
+        font-weight: 100;
+    }
+    .sort-dropdown {
+        //display: none;
+        width: 150px;
+        cursor: pointer;
+        padding: 5px;
+        max-height: none;
+        overflow: auto;
+        li {
+            border-bottom: 1px solid beige;
+        }
+    }
+}
+
+.sort span,
+.sort-label,
+.sort-name {
+    font-size: 14px;
+    color: #212121;
+}
+
+.sort-label {
+    margin-right: 5px;
+    font-weight: 100;
+}
+
+.sku-container {
+    margin-top: 20px;
+}
+
+.sku-container .sku-pack {
+    font-size: 12px;
+    color: #8c8c8c;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sku-price {
+    margin-top: 10px;
+    height: 2.5em;
+    .sku-offer {
+        color: #042430;
+        font-size: 18px;
+    }
+    .sku-actual {
+        font-size: 12px;
+        white-space: nowrap;
+        color: #878686;
+        text-decoration: line-through;
+    }
+    .display-inline {
+        display: inline-block;
+    }
+}
+
+.sku-container>.content-wrap {
+    padding: 16px;
+}
+
+a.btn.btn-checkout.btn-add-sku-to-cart {
+    text-transform: uppercase;
+    border-radius: 0;
+    //background-color: #042430;
+    //color: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-color: transparent;
+    -webkit-box-shadow: 0 1px 1px #666;
+    box-shadow: 0 1px 1px #666;
+    //&:hover{
+    //  background-color: #F7B632;
+    //  color: #071b24;
+    //}
+}
+
+.dia-sku {
+    padding: 0 5px !important;
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .sku-list .dia-sku {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 399px) {
+    .sku-list .dia-sku {
+        width: 50%;
+    }
+}

@@ -1,0 +1,98 @@
+.homeDownloadApp {
+    position: relative;
+    height: 50%;
+    background: #046686;
+    margin-bottom: 10px;
+}
+
+.homeDownloadApp .appInfoText {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 25%;*/
+    /*width: 40%;*/
+    /*left: 20%;*/
+    /*margin: 0 auto;*/
+    /*z-index: 50;*/
+}
+
+.appInfoText h1,
+h4 {
+    color: #FFFFFF;
+}
+
+.homeDownloadApp .platformContainer {
+    margin-top: 50px;
+    /*width: 400px;*/
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.platformContainer a {
+    color: #ffffff;
+}
+
+.platformContainer .left {
+    width: 30%;
+}
+
+.platformContainer .right {
+    width: 28%;
+}
+
+
+/*.left a,.right a{*/
+
+
+/*display:flex;*/
+
+
+/*}*/
+
+.applink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    font-size: 14px;
+}
+
+.applink input.appdownload {
+    width: 349px;
+    padding-left: 41px;
+    height: 54px;
+    outline: 0;
+    border-radius: 4px;
+    background-color: #fff;
+    float: left;
+    border: 1px solid #949494;
+    color: #000000;
+}
+
+.applink .zipcode {
+    position: absolute;
+    top: 16px;
+    color: #646464;
+    left: 90px;
+}
+
+.applink .button {
+    width: 130px;
+    height: 54px;
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #007aff;
+    border: 1px solid #007aff;
+}

@@ -1,0 +1,262 @@
+.Cart__container___5UudH {
+  padding: 12px 0;
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  min-height: 600px; }
+
+.CartStepper__margin___rPxU6 {
+  margin-bottom: 15px;
+  margin-top: 12px;
+  display: block;
+  padding: 0 16px; }
+
+.Step__step___3K1ts.Step__step-active___H-r3g {
+  border-color: #0bc5d8;
+  color: #071b24; }
+
+.Step__step___3K1ts {
+  display: inline-block;
+  position: relative;
+  margin-right: 4px;
+  padding: 0;
+  border-bottom: 5px solid #c5c5c5;
+  color: #c5c5c5; }
+
+.Step__title___cpJ5U {
+  font-size: 14px;
+  padding-bottom: 8px;
+  font-weight: 600; }
+
+.CartLineItem__name___3JS5V,
+.CartLineItem__price___1j-lm {
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #212121; }
+
+.Cart__cart-items___R-0Rk {
+  padding: 0 16px; }
+
+.CartLineItem__actual-price___1Juw7 {
+  text-decoration: line-through; }
+
+.CartLineItem__actual-price___1Juw7,
+.CartLineItem__coupon-discount___34hbG,
+.CartLineItem__pack-size-label___xORIi {
+  color: #9e9e9e;
+  font-size: 10px;
+  font-weight: 700; }
+
+.CartLineItem__actual-price___1Juw7,
+.CartLineItem__price___1j-lm {
+  margin-right: 4px; }
+
+.CartLineItems__section-title___2M9wJ {
+  font-size: 16px;
+  margin-bottom: 8px; }
+
+.CartLineItem__txt-delete-medicine___2PC18 {
+  color: #9e9e9e;
+  line-height: 2.5;
+  cursor: pointer; }
+
+.Quantity__text___2EoLZ {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.CartLineItems__item-list___2p3SB {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  padding-bottom: 16px;
+  background: #fff;
+  margin-bottom: 16px;
+  border-radius: 2px; }
+
+.CartLineItem__container___1w1IL {
+  border-bottom: 1px solid #c7c7c7;
+  padding: 0 8px 16px;
+  margin: 0;
+  font-size: 12px; }
+
+.CartLineItem__container___1w1IL:last-child {
+  border-bottom: 0;
+  padding-bottom: 0; }
+
+.CartLineItem__container___1w1IL:first-child {
+  padding-top: 0; }
+
+.CartSummary__outerContainer___1mopE {
+  margin-top: 34px;
+  color: #757575;
+  font-size: 12px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 2px; }
+
+.CartSummary__innerContainer___fqXQi {
+  padding: 8px 0 0; }
+
+.CartSummary__text___1vrNO {
+  line-height: 28.8px;
+  line-height: 1.8rem;
+  font-size: 12px;
+  color: #757575; }
+
+.CartSummary__totalAmount___dkw0Q {
+  padding-top: 4px;
+  font-weight: 700;
+  color: #212121;
+  font-size: 14px;
+  padding-bottom: 16px; }
+
+.CartSummary__cart-summary-footer-text___211r2 {
+  background-color: rgba(25, 171, 42, 0.1);
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.CartSummary__savings-amount___1D_o0 {
+  color: #1aab2a;
+  font-weight: 600; }
+
+.Cart__desktop-button___2DRdC {
+  display: block;
+  padding-top: 8px;
+  clear: both;
+  box-Shadow: 0;
+  width: 100%;
+  margin-top: 16px;
+  height: 50px !important;
+  border-radius: 2px !important; }
+
+.CartSummary__cart-summary-footer___24W5I,
+.CartSummary__shipping-footer___3HOkT {
+  color: #757575;
+  line-height: 28.8px;
+  line-height: 1.8rem;
+  font-size: 14px; }
+
+.Cart__disclaimer___N20CK {
+  font-size: 10px;
+  color: #757575;
+  margin-top: 40px;
+  padding: 8px 16px;
+  bottom: 0;
+  border-top: 1px solid #c7c7c7; }
+
+.Cart__coupon-superscript-star___1fuIB {
+  font-size: 12px;
+  display: inline;
+  padding-right: 4px; }
+
+.Cart__disclaimer-small___1ptS3 {
+  font-size: 10px;
+  color: #757575;
+  margin-top: 40px;
+  padding: 8px 16px;
+  bottom: 0;
+  border-top: 1px solid #c7c7c7; }
+
+.CartDeliveryDetails__select-address-title___jpTxO {
+  margin-bottom: 8px;
+  color: #212121;
+  font-size: 16px; }
+
+.CartDeliveryDetails__address-list___1niXM {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  margin-bottom: 16px; }
+
+.CartDeliveryDetails__anchor___1dy7b {
+  color: #212121;
+  float: left; }
+
+.AddressCard__card___2PUvl {
+  border-bottom: 1px solid #c7c7c7;
+  font-size: 12px;
+  padding: 16px; }
+
+.AddressCard__options___2sSuD {
+  position: relative;
+  float: right; }
+
+.AddressCard__list-hide___ryhLq {
+  display: none; }
+  .AddressCard__list-hide___ryhLq li {
+    padding: 4px;
+    list-style: none; }
+    .AddressCard__list-hide___ryhLq li .AddressCard__links___2U5LI {
+      color: #909090;
+      display: block; }
+
+.AddressCard__card-content-selectable___1ZNM8 {
+  padding-left: 32px; }
+  .AddressCard__card-content-selectable___1ZNM8 .AddressCard__type___okeiZ {
+    font-weight: 700;
+    text-transform: uppercase; }
+
+.CartPayment__cart-items___KuzeB {
+  padding: 0 16px; }
+
+.CartPayment__select-payment-title___3Qzwq {
+  margin-bottom: 8px;
+  color: #212121;
+  font-size: 16px; }
+
+.CartPayment__inner-container___3gc5E {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  margin-bottom: 16px; }
+
+.PaymentModes__checkbox___s8Xxp {
+  float: left; }
+
+.PaymentModes__card___27Vom {
+  border-bottom: 1px solid #c7c7c7;
+  font-size: 12px;
+  padding: 16px;
+  min-height: 64px;
+  cursor: pointer; }
+
+.PaymentModes__card-left-padding___1ab7O {
+  padding-left: 32px;
+  padding-top: 4px; }
+  .PaymentModes__card-left-padding___1ab7O .PaymentModes__payment-title___1aWC2 {
+    font-size: 12px;
+    color: #212121;
+    opacity: .87; }
+    .PaymentModes__card-left-padding___1ab7O .PaymentModes__payment-title___1aWC2 img {
+      max-width: 100%;
+      vertical-align: middle;
+      border: 0; }
+  .PaymentModes__card-left-padding___1ab7O .PaymentModes__text___12ges {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.6; }
+
+.PaymentModes__payment-logo___3FZ_3 {
+  height: 30px; }
+
+.PaymentModes__promotional-message___3dW7k {
+  color: #1aab2a; }
+
+.checkbox {
+  border: 1px solid black;
+  height: 5px;
+  width: 5px;
+  background: black; }
+
+[type="checkbox"] {
+  float: left; }
+
+#leftarrow,
+#rightarrow {
+  background: #042b68;
+  padding: 5px;
+  border-radius: 50%;
+  color: #ffffff; }
+
+/*# sourceMappingURL=added-items.css.map */

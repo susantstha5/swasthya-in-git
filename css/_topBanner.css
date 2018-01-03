@@ -1,0 +1,22 @@
+.notify-visitors{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #FFFFFF;
+    z-index: 500;
+    line-height: 31px;
+    border-bottom: 2px solid #0bc5d8;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+
+   }
+.notify-visitors p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 25s linear infinite;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}

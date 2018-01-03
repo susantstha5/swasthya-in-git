@@ -1,0 +1,249 @@
+.tollfree h5,
+.tollfree h3,
+.download h5 {
+    color: #FFFFFF;
+}
+
+.wrappers {
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 20% 1fr;
+    grid-template-areas: "social-toll social-toll" "categories categories";
+    grid-gap: 5px;
+    background: #046686;
+    /*padding: 5px 20px 20px 20px;*/
+    height: 100%;
+    /*border: 2px solid lightgrey;*/
+    /*margin:20px;*/
+}
+
+.wrappers>div {
+    /*padding: 1em;*/
+}
+
+.social-toll {
+    grid-area: social-toll;
+    display: -webkit-grid;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr;
+    -ms-grid-template-columns: 1fr;
+    background: #FFFFFF;
+    /*border-bottom: 2px solid lightgrey;*/
+    /*background: transparent;*/
+    /*padding-bottom: 5px !important;*/
+}
+
+.social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.tollfree {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footerFallowus ul {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footerFallowus ul li {
+    display: inline;
+    padding: 0 5px;
+}
+
+.footerFallowus ul li a {
+    font-size: 22px;
+    margin: 0 5px;
+    -webkit-transition: all .1s;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-decoration: none;
+    text-align: left;
+}
+
+.fb {
+    color: #00329b!important;
+}
+
+.g-plus {
+    color: #c63506!important;
+}
+
+.twitter {
+    color: #0cf!important;
+}
+
+.linkedin {
+    color: #0177b5!important;
+}
+
+
+/*.social .icons{*/
+
+
+/*margin-left:10px;*/
+
+
+/*}*/
+
+
+/*.icons .fa-facebook-square:hover{*/
+
+
+/*color:#3b5998;*/
+
+
+/*}*/
+
+
+/*.icons .fa-linkedin-square:hover{*/
+
+
+/*color:#007bb6;*/
+
+
+/*}*/
+
+
+/*.icons .fa-twitter-square:hover{*/
+
+
+/*color:#00aced;*/
+
+
+/*}*/
+
+
+/*.icons .fa-instagram:hover{*/
+
+
+/*color:#bc2a8d;*/
+
+
+/*}*/
+
+.social h5 {
+    line-height: 24px;
+}
+
+.download {
+    grid-area: download;
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.download .apps {
+    /*line-height: 7;*/
+}
+
+.download .apps a img {
+    /*padding-bottom: 10px;*/
+    -webkit-box-shadow: 0px 0px 40px #888888;
+    box-shadow: 0px 0px 40px #888888;
+}
+
+.caterogies {
+    grid-area: categories;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1em;
+}
+
+.caterogies .box {
+    width: 95%;
+    padding: 0 9px;
+}
+
+.footer-list-links {
+    padding-left: 0px;
+}
+
+.footer-list-links .footer-list-title {
+    margin: 0 0 10px;
+    cursor: auto;
+    font-weight: 700;
+}
+
+.footer-list-links .footer-list-item {
+    line-height: 1em;
+    margin-bottom: 7px;
+    list-style: none;
+}
+
+.footer-list-links .footer-list-item a {
+    /*color:#24E1DB;*/
+    color: #ffffff;
+}
+
+.footer-list-links .footer-list-item a:hover {
+    /*color:#24E1DB;*/
+    color: #fdfffc;
+}
+
+.copyright {
+    background: #024B68;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 992px) {
+    /* phones */
+    .wrappers {
+        grid-template-columns: 1fr;
+        grid-template-areas: "categories" "social-toll";
+    }
+    .download {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .download .apps {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .download .apps a img {
+        height: 90%;
+        width: 80%;
+    }
+    .caterogies {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .footer-list-links {
+        margin: 14px 0px;
+    }
+    .social-toll {
+        grid-template-columns: 1fr;
+        border-bottom: none;
+    }
+    .social,
+    .tollfree {
+        margin-bottom: 10px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}

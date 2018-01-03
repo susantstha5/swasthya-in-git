@@ -1,0 +1,180 @@
+.main-sidebar {
+    /*width: 80px;*/
+    /*padding: 0;*/
+    /*position: fixed;*/
+    /*background-color: transparent;*/
+    /*width: 8%;*/
+    /*bottom:0;*/
+    /*left: 0;*/
+    /*top: 52px;*/
+    /*min-height: 100%;*/
+    /*display: none;*/
+    /*border: 0;*/
+    /*box-shadow: -5px 8px 15px 2px #000;*/
+    z-index: 1;
+    position: relative;
+}
+
+
+/*.main-sidebar .logo-box .navbar-brand {*/
+
+
+/*height: inherit;*/
+
+
+/*float: none;*/
+
+
+/*display: block;*/
+
+
+/*width: 100%;*/
+
+
+/*padding: 12px 10px;*/
+
+
+/*text-align: center;*/
+
+
+/*background-color: #024b68; }*/
+
+
+/*.main-sidebar .logo-box .navbar-brand img {*/
+
+
+/*height: 37px;*/
+
+
+/*display: inline-block; }*/
+
+.main-sidebar .sidebar-menu {
+    /*position:absolute;*/
+    position: fixed;
+    padding: 0 5px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    bottom: 0;
+    top: 140px;
+    background: #ffffff;
+    z-index: -1;
+    left: 0;
+    -webkit-box-shadow: 8px 0px 16px -8px #000000;
+    box-shadow: 8px 0px 16px -8px #000000;
+}
+
+.main-sidebar .sidebar-menu li {
+    list-style-type: none;
+}
+
+.main-sidebar .sidebar-menu li a {
+    color: #464646;
+    font-size: 10px;
+    padding: 13px 5px;
+    display: block;
+}
+
+.main-sidebar .sidebar-menu li a:hover {
+    color: #FFFFFF;
+}
+
+.main-sidebar .sidebar-menu li a span {
+    display: block;
+    font-size: 30px;
+}
+
+.main-sidebar .sidebar-menu li.active a {
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    .main-sidebar {
+        width: 13%;
+        top: 0;
+    }
+    .main-sidebar .sidebar-menu li a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .main-sidebar {
+        width: 9%;
+    }
+    .main-sidebar .sidebar-menu li a {
+        font-size: 15px;
+        padding: 15px 10px;
+    }
+    .main-sidebar .sidebar-menu li a span {
+        font-size: 30px;
+    }
+}
+
+
+/*marker*/
+
+li.marker {
+    text-transform: uppercase;
+    border-top: 1px solid #eeeeee;
+    background: white;
+    line-height: 28px;
+}
+
+li.marker i {
+    font-size: 20px;
+    color: red;
+}
+
+.main-sidebar .sidebar-menu li.marker a {
+    padding: 0px;
+}
+
+
+/*animation slide out*/
+
+.slide-out:hover {
+    -webkit-box-shadow: 6px 0px 1px #04668C;
+    box-shadow: 6px 0px 1px #04668C;
+    background: #024B68;
+    -webkit-transition: .5s linear;
+    transition: .5s linear;
+    -webkit-animation: slide-out .5s both linear;
+    animation: slide-out .5s both linear;
+}
+
+@-webkit-keyframes slide-out {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+    }
+    100% {
+        -webkit-transform: translateX(25px);
+        transform: translateX(25px)
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+    }
+    100% {
+        -webkit-transform: translateX(25px);
+        transform: translateX(25px)
+    }
+}
+
+@media (max-width:990px) {
+    .sidebar-menu {
+        top: 60px !important;
+    }
+}
+
+
+/*#sidebar { float: right; }*/
