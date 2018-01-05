@@ -4,10 +4,10 @@
 
 .city-list div.modal-content {
     overflow-y: scroll;
-    width: 400px;
+    /*width: 400px;*/
     max-height: 400px;
     margin: 10% 25%;
-    line-height: 1px;
+    /*line-height: 1px;*/
 }
 
 
@@ -34,7 +34,7 @@
 }
 
 .city-input input {
-    text-align: center;
+    /*text-align: center;*/
     border: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -42,6 +42,7 @@
     width: 70%;
     background-color: #fafafa;
     outline: 0;
+    color:black;
 }
 
 .city-name {

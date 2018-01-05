@@ -9,22 +9,22 @@
                   <!-- GPS ICONS       -->
 		<li class="slide-out">
 			<a href="category.php">
-				<span class="lnr lnr-briefcase"></span> Medicine
+                <img src="design/assets/images/tablets.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Medicine
 			</a>
 		</li>
 		<li class="slide-out">
 			<a href="hospital.php">
-				<span class="lnr lnr-apartment"></span> Hospital
+                <img src="design/assets/images/hospital2.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Hospital
 			</a>
 		</li>
 		<li class="slide-out">
 			<a href="labtest.php">
-                <img src="design/assets/images/lab-test-cubes.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Lab Tests
+                <img src="design/assets/images/microscope.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Lab Tests
 			</a>
 		</li>
 		<li class="slide-out">
 			<a href="doctor.php">
-                <img src="design/assets/images/stethoscope.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Doctors
+                <img src="design/assets/images/doctor.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Doctors
 			</a>
 		</li>
 <!--		<li class="slide-out">-->
@@ -34,12 +34,12 @@
 <!--		</li>-->
         <li class="slide-out">
 			<a href="article/main_article_page.php">
-				<span class="lnr lnr-file-empty"></span> Articles
+                <img src="design/assets/images/text-lines.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Articles
 			</a>
 		</li>
         <li class="slide-out">
 			<a href="forum/forum_mainpage.php">
-				<span class="lnr lnr-book"></span> Forum
+                <img src="design/assets/images/chat.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Forum
 			</a>
 		</li>
 	</ul>

@@ -65,8 +65,8 @@
     background: #ffffff;
     z-index: -1;
     left: 0;
-    -webkit-box-shadow: 8px 0px 16px -8px #000000;
-    box-shadow: 8px 0px 16px -8px #000000;
+    -webkit-box-shadow: 8px 0 16px -8px #000000;
+    box-shadow: 8px 0 16px -8px #000000;
 }
 
 .main-sidebar .sidebar-menu li {
@@ -109,7 +109,7 @@
     }
     .main-sidebar .sidebar-menu li a {
         font-size: 15px;
-        padding: 15px 10px;
+        padding: 10px 10px;
     }
     .main-sidebar .sidebar-menu li a span {
         font-size: 30px;
@@ -132,15 +132,15 @@ li.marker i {
 }
 
 .main-sidebar .sidebar-menu li.marker a {
-    padding: 0px;
+    padding: 0;
 }
 
 
 /*animation slide out*/
 
 .slide-out:hover {
-    -webkit-box-shadow: 6px 0px 1px #04668C;
-    box-shadow: 6px 0px 1px #04668C;
+    -webkit-box-shadow: 6px 0 1px #04668C;
+    box-shadow: 6px 0 1px #04668C;
     background: #024B68;
     -webkit-transition: .5s linear;
     transition: .5s linear;

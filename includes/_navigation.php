@@ -1,6 +1,5 @@
 <header>
-<!--    <input type="hidden" id="sessionCurrentCity" value="HYDERABAD">-->
-
+    <!-- desktop navigation start-->
     <div class="webNav hidden-xs hidden-sm">
         <div class="navMini">
             <div class="container-fluid padding-none">
@@ -30,10 +29,9 @@
             </div>
         </div>
 
-        <nav class="navbar mart-nav margin-none header-bar affix-top" role="navigation" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+        <nav class="navbar mart-nav margin-none header-bar" role="navigation">
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.php"><img src="design/assets/images/logos.png" alt="" style="height:100%">Swasthya </a>
-<!--                <a class="nav-catalog shopByCategory" href="javascript:void()" title="Shop by Category"><i class="fa fa-bars padding-r"></i>Shop by Category</a>-->
             </div>
 
             <!-- search start-->
@@ -55,7 +53,7 @@
 									</ul>
 								</span>
                             <span class="twitter-typeahead srchdropdwn container-fluid padding-none">
-                                <input class="tt-hint hide" type="text" autocomplete="off" spellcheck="off" disabled="" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);">
+                                <input class="tt-hint hide" type="text" autocomplete="off" spellcheck="off" disabled="" style="position: absolute; top: 0; left: 0; border-color: transparent; box-shadow: none; background: none 0 0 / auto repeat scroll padding-box border-box rgb(255, 255, 255);">
                                 <input id="enterval" name="enterval" data-provide="typeahead" type="text"
                                        class="form-control navtxtSearch typeahead tw-typeahead tt-query"
                                        placeholder="Search for... general or pharma products"
@@ -65,11 +63,11 @@
                                 <span style="position: absolute; left: -9999px; visibility: hidden; white-space: nowrap;
                                  font-family: open_sansregular, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px;
                                  font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal;
-                                 font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px;
+                                 font-weight: 400; word-spacing: 0; letter-spacing: 0; text-indent: 0;
                                  text-rendering: auto; text-transform: none;">
                                 </span>
                                 <span class="tt-dropdown-menu dropdown-menu"
-                                      style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; width: 100%;">
+                                      style="position: absolute; top: 100%; left: 0; z-index: 100; display: none; width: 100%;">
                                 </span>
                             </span>
                             <i class="fa fa-refresh fa-spin fa-fw loadproducts hide"></i>
@@ -94,13 +92,9 @@
 
                 <li id="miniCartDiv" class="dropdown hidden-xs">
 
-                    <a href="javascript:;" class="smallnav dropdown-toggle" data-toggle="dropdown">
+                    <a href="javascript:void(0);" class="smallnav dropdown-toggle" data-toggle="dropdown">
                         <span class="badge count-cart">0</span>
                         <i class="fa fa-cart-plus fa-2x padding-r-5" aria-hidden="true"></i>
-<!--                       <span class="margin-l-5 hidden-xs visLg">Cart</span>-->
-<!--                        <span class="cartCount animated delay02s bounceInDown" id="microCartQty">-->
-<!--				                1-->
-<!--	                    </span>-->
                     </a>
                     <div class="dropdown-menu minicart minicartbg none-borderradius padding-none">
 
@@ -127,21 +121,12 @@
                                         <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; max-height: 201px;"><div class="cartscrolldiv" style="overflow: hidden; width: auto; max-height: 201px;">
                                                 <table class="table table-hover table-bordered margin-b table-condensed small-text" style="position:relative;top:-3px;">
                                                     <tbody id="cartTableBody">
-<!--                                                        <tr class="prdRow borderradius-top-none">-->
-<!--                                                            <td class="col-sm-6 col-md-6">AVELIA NEEM FACEWASH 70GM</td>-->
-<!--                                                            <td class="col-sm-1 col-md-1 text-right" style="padding-right:15px;">1</td>-->
-<!--                                                        </tr>-->
-<!--                                                            no item to display-->
+
                                                         <input type="hidden" id="checkoutUrl" value="/shoppingCart">
                                                     </tbody>
                                                 </table>
                                             </div>
-<!--                                            <div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.6; border-radius: 7px; z-index: 99; right: 1px; display: block;">-->
-<!---->
-<!--                                            </div>-->
-<!--                                            <div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;">-->
-<!---->
-<!--                                            </div>-->
+
                                         </div>
                                     </div>
                                 </div>
@@ -170,7 +155,7 @@
                     </a>
                 </li>
 <!--                modal section -->
-                <div class="modal fade " id="myModal" role="dialog" >
+                <div class="modal fade myModal" id="myModal" role="dialog" >
                     <div class="modal-dialog model-sm city-list" >
 
                         <!-- Modal content-->
@@ -421,84 +406,113 @@
         </nav>
         <!-- Top navigation over -->
 
-        <!--WebNav start -->
-
-        <!-- webNav ends -->
-
     </div>
 
     <!--mobile navigation start -->
-    <nav class="navbar mart-nav navbar-fixed-top margin-none visible-xs visible-sm" role="navigation">
-        <div class="">
-            <a class="navbar-brand" href="index.php">
-<!--                <img src="design/assets/images/logos.png" alt="">-->
-                <img title="swasthyaNepal" alt="swasthyaNepal" src="" >
-            </a>
-        </div>
-        <ul class="nav navbar-nav navbar-right mobile-nav margin-r">
-
-            <li>
-                <div id="wrap">
-                    <form action="" autocomplete="on">
-                        <input id="search" name="search" type="text" placeholder="Search for pharma products">
-                        <i class="fa fa-search size-26 search-icon"><input id="search_submit" value="search" type="submit"></i>
-                    </form>
-                </div>
-            </li>
-            <li ><a data-toggle="modal" data-target="#myModal1" href="" role="button" title="Locality/Pincode"><i class="fa fa-map-marker size-26"></i></a></li>
-            <div class="modal fade " id="myModal1" role="dialog" >
-                <div class="modal-dialog model-sm city-list" >
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Lists of Cities</h4>
-                        </div>
-                        <div class="modal-body">
-
-                            <div class="city-input">
-                                <input type="text" name="city" placeholder="enter your city" class="search-city">
-                                <input type="hidden" name="cityName" value="Kathmandu" class="city-name">
-
-                            </div>
-                            <ul class="top-city-list">
-                                <div class="city-label">Top Cities</div>
-                                <li class="city-name"><a data-value="kathmandu" class="link-city button-text">Kathmandu</a></li>
-                                <li class="city-name"><a data-value="Gurgaon" class="link-city button-text">Bhaktapur</a></li>
-                                <li class="city-name"><a data-value="Pune" class="link-city button-text">Latitpur</a></li>
-                                <li class="city-name"><a data-value="Mumbai" class="link-city button-text">Gulmi</a></li>
-                                <li class="city-name"><a data-value="Bengaluru" class="link-city button-text">Patan</a></li>
-                                <li class="city-name"><a data-value="Kolkata" class="link-city button-text">Naxal</a></li>
-                                <li class="city-name"><a data-value="Hyderabad" class="link-city button-text">Jhapa</a></li>
-                                <li class="city-name"><a data-value="Ahmedabad" class="link-city button-text">Hetauda</a></li>
-                                <li class="city-name"><a data-value="Chennai" class="link-city button-text">Birgunj</a></li>
-                                <li class="city-name"><a data-value="Indore" class="link-city button-text">Sanepa</a></li>
-                                <li class="city-name"><a data-value="Lucknow" class="link-city button-text">Dharan</a></li>
-                                <li class="city-name"><a data-value="Jaipur" class="link-city button-text">Malekhu</a></li>
-                                <li class="city-name"><a data-value="Chandigarh" class="link-city button-text">Chitwan</a></li>
-                                <li class="city-name"><a data-value="Bhopal" class="link-city button-text">Janakpur</a></li>
-                                <li class="city-name"><a data-value="Noida" class="link-city button-text">Karnali</a></li>
-                                <li class="city-name"><a data-value="Navi Mumbai" class="link-city button-text">Narayani</a></li>
-                                <li class="city-name"><a data-value="Surat" class="link-city button-text">Surkhet</a></li>
-                                <li class="city-name"><a data-value="Patna" class="link-city button-text">Lumbini</a></li>
-                                <li class="city-name"><a data-value="Ludhiana" class="link-city button-text">Kaski</a></li>
-                                <li class="city-name"><a data-value="Bhubaneshwar" class="link-city button-text">Baneshwor</a></li>
-                            </ul>
-
-                        </div>
-
+    <nav class="navbar-fixed-top margin-none visible-xs visible-sm" role="navigation">
+        <div class="inside_mini">
+            <div class="mobile_header-logo-container">
+                <a class="navbar-brand" href="index.php">
+                    <img title="swasthyaNepal" alt="swasthyaNepal" src="" >
+                </a>
+            </div>
+            <div class="m_header-left">
+                <div class="search_container">
+                    <button><i class="fa fa-search size-18"></i></button>
+                    <div class="m_header-search display-none">
+                        <form action="">
+                            <input class="search_box" type="search">
+                            <i class="fa fa-search search-icon"></i>
+                        </form>
                     </div>
-
+                </div>
+                <div class="category_container">
+                    <button class="fa fa-align-justify " data-toggle="modal" data-target="#m_category"></button>
+                    <div class="modal fade" id="m_category">
+                        <div class="categories">
+                    <span class="m_category-header text-center">
+                        <a href="" class="m_category-heading">categories</a>
+                    </span>
+                            <ul>
+                                <a href="javascript:void(0)"><li>Personal care</li></a>
+                                <a href="javascript:void(0)"><li>Exclusive</li></a>
+                                <a href="javascript:void(0)"><li>Supersale</li></a>
+                                <a href="javascript:void(0)"><li>Fitness & Suppliments</li></a>
+                                <a href="javascript:void(0)"><li>Ayurveda</li></a>
+                                <a href="javascript:void(0)"><li>Personal Care</li></a>
+                                <a href="javascript:void(0)"><li>Baby & Mother</li></a>
+                                <a href="javascript:void(0)"><li>Beauty</li></a>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <li id="shopping-cart-btn">
-<!--					<span class="cartCount animated delay02s bounceInDown" id="miniMicroCart">1</span>-->
-                <a href="carts.php" title="cart"><span class="badge count-cart">0</span><i class="fa fa-cart-plus size-15 padding-r-5 size-26" aria-hidden="true"></i></a>
-            </li>
-<!--            <li><a href="#" title="Sign In/Register"><i class="fa fa-user-plus size-15 size-26" aria-hidden="true"></i></li>-->
-        </ul>
+
+            <div class="m_header-right">
+                <div class="location_container">
+                    <a href="#" title="Locality/Pincode" data-toggle="modal" data-target=".myModal">
+                        <i class="fa fa-map-marker size-18"></i>
+                    </a>
+                    <!--                modal section -->
+                    <div class="modal fade myModal"  role="dialog" >
+                        <div class="modal-dialog model-sm city-list" >
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Lists of Cities</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    <div class="city-input">
+                                        <input type="text" name="city" placeholder="enter your city" class="search-city">
+                                        <input type="hidden" name="cityName" value="Kathmandu" class="city-name">
+
+                                    </div>
+                                    <ul class="top-city-list">
+                                        <div class="city-label">Top Cities</div>
+                                        <li class="city-name"><a data-value="kathmandu" class="link-city button-text">Kathmandu</a></li>
+                                        <li class="city-name"><a data-value="Gurgaon" class="link-city button-text">Bhaktapur</a></li>
+                                        <li class="city-name"><a data-value="Pune" class="link-city button-text">Latitpur</a></li>
+                                        <li class="city-name"><a data-value="Mumbai" class="link-city button-text">Gulmi</a></li>
+                                        <li class="city-name"><a data-value="Bengaluru" class="link-city button-text">Patan</a></li>
+                                        <li class="city-name"><a data-value="Kolkata" class="link-city button-text">Naxal</a></li>
+                                        <li class="city-name"><a data-value="Hyderabad" class="link-city button-text">Jhapa</a></li>
+                                        <li class="city-name"><a data-value="Ahmedabad" class="link-city button-text">Hetauda</a></li>
+                                        <li class="city-name"><a data-value="Chennai" class="link-city button-text">Birgunj</a></li>
+                                        <li class="city-name"><a data-value="Indore" class="link-city button-text">Sanepa</a></li>
+                                        <li class="city-name"><a data-value="Lucknow" class="link-city button-text">Dharan</a></li>
+                                        <li class="city-name"><a data-value="Jaipur" class="link-city button-text">Malekhu</a></li>
+                                        <li class="city-name"><a data-value="Chandigarh" class="link-city button-text">Chitwan</a></li>
+                                        <li class="city-name"><a data-value="Bhopal" class="link-city button-text">Janakpur</a></li>
+                                        <li class="city-name"><a data-value="Noida" class="link-city button-text">Karnali</a></li>
+                                        <li class="city-name"><a data-value="Navi Mumbai" class="link-city button-text">Narayani</a></li>
+                                        <li class="city-name"><a data-value="Surat" class="link-city button-text">Surkhet</a></li>
+                                        <li class="city-name"><a data-value="Patna" class="link-city button-text">Lumbini</a></li>
+                                        <li class="city-name"><a data-value="Ludhiana" class="link-city button-text">Kaski</a></li>
+                                        <li class="city-name"><a data-value="Bhubaneshwar" class="link-city button-text">Baneshwor</a></li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shopping-cart_container" id="shopping-cart-btn">
+                    <a href="carts.php" title="cart">
+                        <span class="badge count-cart">0</span>
+                        <i class="fa fa-cart-plus padding-r-5 size-18" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
     </nav>
     <!--mobile navigation over-->
 

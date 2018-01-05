@@ -9,13 +9,6 @@
     color: #fff;
     text-align: center;
     margin-top: 30px;
-    /*position: absolute;*/
-    /*right: 0;*/
-    /*top: 25%;*/
-    /*width: 40%;*/
-    /*left: 20%;*/
-    /*margin: 0 auto;*/
-    /*z-index: 50;*/
 }
 
 .appInfoText h1,
@@ -69,7 +62,7 @@ h4 {
 
 .applink input.appdownload {
     width: 349px;
-    padding-left: 41px;
+    text-indent: 50px;
     height: 54px;
     outline: 0;
     border-radius: 4px;
@@ -83,7 +76,7 @@ h4 {
     position: absolute;
     top: 16px;
     color: #646464;
-    left: 90px;
+    left: 100px;
 }
 
 .applink .button {

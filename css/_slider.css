@@ -18,9 +18,9 @@ section.main-slider-wrapper.section {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     section.main-slider-wrapper.section {
-        /*margin-top: 157px;*/
+        margin-top: 60px;
     }
 }
 
