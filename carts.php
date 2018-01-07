@@ -20,7 +20,6 @@
     <link type="text/css" href="css/_asideBar.css" rel="stylesheet">
     <link rel="stylesheet" href="css/added-items/added-items.css">
     <link href="css/modal.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/mobile-navbar.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/_footers.css" rel="stylesheet">
 </head>

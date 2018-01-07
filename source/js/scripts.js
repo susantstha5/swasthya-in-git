@@ -75,10 +75,12 @@ $(document).ready(function () {
 //Autoplay
             autoPlay : 5000,
             stopOnHover : false
-        // console.log('i am here')
     })
 
 });
 
-//counter section
+//search toggle section
 
+$('.search_container button').on('click',function(){
+    $('.m_header-search').slideToggle(500);
+});

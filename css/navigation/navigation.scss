@@ -33,6 +33,7 @@
 .size-15 {
     font-size: 15px !important;
 }
+
 .size-18 {
     font-size: 18px !important;
 }
@@ -69,6 +70,7 @@ header {
     color: #ffffff;
     font-family: 'FontAwesome';
 }
+
 //desktop section
 nav.navbar.mart-nav {
     height: 60px;
@@ -104,17 +106,22 @@ nav.navbar.mart-nav {
     float: left!important;
     font-size: 18px;
     line-height: 20px;
+    height: 70px;
 }
 
 //mobile section
 //nav.mart-nav
-.inside_mini{
+.inside_mini {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
     display: flex!important;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 20px;
     position: relative;
     z-index: 1011;
-    height:60px;
+    height: 60px;
     background-color: #04668C;
     color: #fdfffc;
     font-size: 1em;
@@ -123,121 +130,160 @@ nav.navbar.mart-nav {
         color: #fdfffc;
     }
 }
-.mobile_header-logo-container{
-    position:absolute;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:row;
+
+.mobile_header-logo-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    z-index: -1;
 }
-.m_header-right,.m_header-left{
-    display:flex;
-    align-items:center;
+
+.m_header-right,
+.m_header-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     z-index: 2;
 }
 
-.search_container{
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
-}
-.search_container{
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
-}
-.search_container button,.category_container button{
-    background:transparent;
-    border:none;
-    outline:none;
+.search_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-.display-none{
-    display:none;
+.search_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
-.m_header-search{
-    //background: red;
+
+.search_container button,
+.category_container button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.display-none {
+    display: none;
+}
+
+.m_header-search {
     border-top: none;
     bottom: 0;
+    -webkit-box-shadow: 0 2px 1px #dedfe0;
     box-shadow: 0 2px 1px #dedfe0;
     left: 0;
-    //padding: 5px 15px 15px;
     position: absolute;
     right: 0;
     top: 60px;
     z-index: 2;
-    //height: 60px;
 }
 
-.search_box{
-    width:100%;
-    //height:8vh;
-    outline:none;
-    border:none;
-    font-size:2.5rem;
-    text-indent:10px;
-    padding-right:55px;
-    color:#333;
+.search_box {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 2.5rem;
+    text-indent: 10px;
+    padding-left: 55px;
+    color: #333;
 }
-.search-icon{
-    position:absolute;
-    top:10px;
-    right:30px;
-    font-size:2rem;
-    color:#3333;
-}
-.categories{
-    position:absolute;
-    top:0;
-    left:0;
-    background:#fff;
-    font-size:14px;
-    color:#333;
 
+.search-icon {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 2rem;
+    color: #3333;
 }
-.categories ul{
-    display:flex;
-    list-style:none;
-    padding:0;
-    margin:0;
-    flex-direction:column;
-    height:100vh;
-    overflow-y:auto;
+
+.categories {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    font-size: 14px;
+    color: #333;
 }
-.categories ul a{
-    color:#000;
-    &:hover{
-        background:#f5f5f5;
+
+.categories ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.categories ul a {
+    color: #000;
+    &:hover {
+        background: #f5f5f5;
     }
     li {
-    padding: 15px 30px 15px 10px;
-    border-bottom: 1px solid #3333;
-        &:before{
-            content:'\f054';
-            font-family:'FontAwesome';
-            color:#3333;
-            margin-right:10px;
+        padding: 15px 30px 15px 10px;
+        border-bottom: 1px solid #3333;
+        &:before {
+            content: '\f054';
+            font-family: 'FontAwesome';
+            color: #3333;
+            margin-right: 10px;
         }
- }
+    }
 }
-.m_category-header{
-    display:block;
+
+.m_category-header {
+    display: block;
     font-weight: 600;
     border-bottom: 2px solid #024b68;
     padding: 0;
     position: relative;
-    .m_category-heading{
+    .m_category-heading {
         background: #dddddd;
         border: none;
         color: #686f7a;
         display: block;
         font-weight: 400;
         font-size: 18px;
-        text-transform:capitalize;
+        text-transform: capitalize;
         padding: 15px 20px;
         letter-spacing: 1px;
     }
@@ -548,33 +594,6 @@ nav ul {
     &:hover {
         background: #024B68;
         color: #ffffff;
-    }
-}
-
-//mobile view locality
-@media (max-width: 1024px) and (max-width: 980px) {
-    .mview-loclaity {
-        text-align: center;
-        display: none;
-        left: auto;
-        right: auto;
-        top: 65px;
-        padding: 5px;
-        position: fixed;
-        z-index: 1000 !important;
-        width: 100%;
-        background: #024B68;
-        color: #fff;
-    }
-    .mview-loclaity .arrowup {
-        width: 0;
-        height: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-bottom: 5px solid #024B68;
-        top: -5px;
-        position: absolute;
-        right: 50.7%;
     }
 }
 

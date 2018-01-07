@@ -83,30 +83,8 @@
 <script src="design/vendor/slick-slider/slick/slick.js"></script>
 
 <script src="source/js/scripts.js"></script>
+<script src="source/js/custon_js.js"></script>
 <script src="source/js/maincartsystem.js"></script>
 <script src="source/js/testimonials.js"></script>
-<script>
-    $(document).ready(function () {
-        $(document).on('click', '.navbar-toggle', function (event) {
-            event.preventDefault();
-            $('body').toggleClass('open');
-        });
-        $('.search_container button').on('click',function(){
-            $('.m_header-search').slideToggle(500);
-        });
-//        $('.category_container button').on('click',function(){
-//            $('.categories').slideToggle(1000);
-////            $('.m_category-container-overlay').show();
-//
-//        });
-//        $('.m_category-container-overlay').on('click',function () {
-////            $('.categories').hide();
-//            $('.m_category-container-overlay').hide();
-//
-////            $(this).hide();
-//        })
-
-    });
-</script>
 </body>
 </html>

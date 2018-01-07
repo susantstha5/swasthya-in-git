@@ -47,9 +47,9 @@
 								<span class="input-group-btn">
 								<button class="btn btnMenu" type="button" id="MartSearchCategories" data-toggle="dropdown">All Product<span class="caret"></span></button>
 									<ul class="dropdown-menu categories-drpdwn" aria-labelledby="MartSearchCategories">
-										<li><a href="#" id="general" onclick="selectSearchType(this,'G');" class=""><i class="fa fa-check-circle"></i> General Store</a></li>
-										<li><a href="#" id="pharmacy" onclick="selectSearchType(this,'P');"><i class="fa fa-check-circle"></i> Pharmacy</a></li>
-										<li><a href="#" id="allProducts" onclick="selectSearchType(this,'A');" class="active"><i class="fa fa-check-circle"></i> All Products</a></li>
+										<li><a href="#" id="general" ><i class="fa fa-check-circle"></i> General Store</a></li>
+										<li><a href="#" id="pharmacy" ><i class="fa fa-check-circle"></i> Pharmacy</a></li>
+										<li><a href="#" id="allProducts" class="active"><i class="fa fa-check-circle"></i> All Products</a></li>
 									</ul>
 								</span>
                             <span class="twitter-typeahead srchdropdwn container-fluid padding-none">
@@ -155,7 +155,7 @@
                     </a>
                 </li>
 <!--                modal section -->
-                <div class="modal fade myModal" id="myModal" role="dialog" >
+                <div class="modal fade" id="myModal" role="dialog" >
                     <div class="modal-dialog model-sm city-list" >
 
                         <!-- Modal content-->
@@ -413,7 +413,7 @@
         <div class="inside_mini">
             <div class="mobile_header-logo-container">
                 <a class="navbar-brand" href="index.php">
-                    <img title="swasthyaNepal" alt="swasthyaNepal" src="" >
+                    <img title="swasthyaNepal" alt="swasthyaNepal" src="design/assets/images/logos.png" style="height:100%" >
                 </a>
             </div>
             <div class="m_header-left">
@@ -427,7 +427,7 @@
                     </div>
                 </div>
                 <div class="category_container">
-                    <button class="fa fa-align-justify " data-toggle="modal" data-target="#m_category"></button>
+                    <button class="fa fa-bars " data-toggle="modal" data-target="#m_category"></button>
                     <div class="modal fade" id="m_category">
                         <div class="categories">
                     <span class="m_category-header text-center">
@@ -515,48 +515,5 @@
 
     </nav>
     <!--mobile navigation over-->
-
-    <!--locality info mobile view  -->
-    <!-- <div class="visible-xs visible-sm hide">
-        <div class="row margin-none mview-loclaity">
-            <div class="arrowup"></div>
-            <div class="col-xs-12 padding-none">
-                <span class="w100 ellips left">kathmandu - <span class="size-10">Home Delivery Available</span></span>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- server side messages displayed over -->
-    <div class="visible-xs">
-        <div class="svrmsg alert alert-success none-borderradius" style="display:none">
-            <div class="container-fluid padding-none">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-none">
-                    <button type="button" class="close" onclick="$('.svrmsg').hide();">
-                        ×
-                    </button>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- GeneralStore mobile main navigation start-->
-
-    <div class="modal modalbottom fade mvSelectVariant" id="mobilenav" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document" style="height: 100%;">
-            <div class="modal-content">
-                <div class="modal-header padding-all navhdr">
-                    <h4 class="modal-title" id="myModalLabel">
-                        <img class="padding-r" height="22" data-dismiss="modal" alt="back" title="back" src="design/assets/images/logos.png" >
-                        Shop by Categories
-                    </h4>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- GeneralStore mobile main navigation End-->
-    <!-- Modal -->
-
 </header>
 

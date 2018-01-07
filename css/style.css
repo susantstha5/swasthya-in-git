@@ -124,6 +124,7 @@ textarea::-webkit-input-placeholder {
 .content-wrapper {
     position: relative;
     margin-left: 0;
+    margin-top: 60px;
 }
 
 .content-wrapper .main-slider-wrapper .main-slider .slick-prev {
@@ -189,6 +190,15 @@ textarea::-webkit-input-placeholder {
     }
     .content-wrapper .main-slider-wrapper .main-slider .item .slider-content-wrap .slider-mid .slider-content {
         padding: 0 0 10px 70px;
+    }
+}
+
+@media (min-width: 991px) {
+    .content-wrapper {
+        margin-top: 0;
+    }
+    .sidebar-menu {
+        top: 160px;
     }
 }
 
@@ -338,7 +348,7 @@ textarea::-webkit-input-placeholder {
 
 .addToCartBtn:hover,
 .addToCartBtn:active,
-addToCartBtn:focus {
+.addToCartBtn:focus {
     background: #04668C !important;
     border-color: #04668C!important;
     color: #ffffff!important;
@@ -460,4 +470,13 @@ addToCartBtn:focus {
 
 #wrap input::placeholder {
     color: #ffffff;
+}
+
+
+/*custom style added*/
+
+.u_flex-style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }

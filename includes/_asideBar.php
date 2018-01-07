@@ -9,37 +9,32 @@
                   <!-- GPS ICONS       -->
 		<li class="slide-out">
 			<a href="category.php">
-                <img src="design/assets/images/tablets.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Medicine
+                <img src="design/assets/images/tablets.png" alt=""  > Medicine
 			</a>
 		</li>
 		<li class="slide-out">
 			<a href="hospital.php">
-                <img src="design/assets/images/hospital2.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Hospital
+                <img src="design/assets/images/hospital2.png" alt=""  > Hospital
 			</a>
 		</li>
 		<li class="slide-out">
 			<a href="labtest.php">
-                <img src="design/assets/images/microscope.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Lab Tests
+                <img src="design/assets/images/microscope.png" alt=""  > Lab Tests
 			</a>
 		</li>
 		<li class="slide-out">
 			<a href="doctor.php">
-                <img src="design/assets/images/doctor.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Doctors
+                <img src="design/assets/images/doctor.png" alt=""  > Doctors
 			</a>
 		</li>
-<!--		<li class="slide-out">-->
-<!--			<a href="#">-->
-<!--				<span class="lnr lnr-calendar-full"></span> Appointments-->
-<!--			</a>-->
-<!--		</li>-->
         <li class="slide-out">
 			<a href="article/main_article_page.php">
-                <img src="design/assets/images/text-lines.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Articles
+                <img src="design/assets/images/text-lines.png" alt=""  > Articles
 			</a>
 		</li>
         <li class="slide-out">
 			<a href="forum/forum_mainpage.php">
-                <img src="design/assets/images/chat.png" alt="" style="display:flex;height:50px;margin:0 auto;"> Forum
+                <img src="design/assets/images/chat.png" alt=""  > Forum
 			</a>
 		</li>
 	</ul>

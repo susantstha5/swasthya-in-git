@@ -135,6 +135,14 @@ li.marker i {
     padding: 0;
 }
 
+.slide-out img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    margin:0 auto;
+}
+
 
 /*animation slide out*/
 
@@ -170,7 +178,7 @@ li.marker i {
     }
 }
 
-@media (max-width:990px) {
+@media (max-width:991px) {
     .sidebar-menu {
         top: 60px !important;
     }
